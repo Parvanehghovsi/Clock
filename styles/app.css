@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(49, 49, 49);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#clock {
+  background: url("../image/Clock.png");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 10px 10px 15px #202020, inset -10px -10px 15px #202020;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: relative;
+}
+
+#hour {
+  width: 3px;
+  height: 70px;
+  background-color: #fce413f7;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: absolute;
+  bottom: 150px;
+  right: 148px;
+  transform-origin: bottom;
+}
+
+#minutes {
+  width: 3px;
+  height: 85px;
+  background-color: #02d814;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: absolute;
+  top: 65px;
+  left: 149px;
+  transform-origin: bottom;
+}
+
+#second {
+  width: 3px;
+  height: 100px;
+  background-color: red;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: absolute;
+  top: 50px;
+  left: 149px;
+  transform-origin: bottom;
+}
+
+#circle {
+  width: 11px;
+  height: 11px;
+  background-color: #afa5a5;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  bottom: 145px;
+  left: 145px;
+}
